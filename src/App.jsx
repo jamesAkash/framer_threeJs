@@ -3,10 +3,18 @@ import { Contact, Hero, Portfolio, Services } from "./components";
 const App = () => {
   return (
     <div className="container">
-      <Hero />
-      <Services />
-      <Portfolio />
-      <Contact />
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section id="portfolio">
+        <Portfolio />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 };

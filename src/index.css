@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
 body {
   background: linear-gradient(to bottom, #12071f, #2f204e);
   color: white;
@@ -22,6 +27,27 @@ a {
   padding-inline: 16px;
   margin-inline: auto;
   background: rgb(30, 9, 112);
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+section:nth-child(1) {
+  background-color: #600fbd;
+}
+
+section:nth-child(2) {
+  background-color: #12bd0f;
+}
+
+section:nth-child(3) {
+  background-color: #2b3108;
+}
+
+section:nth-child(4) {
+  background-color: #bd380f;
 }
 
 /* smaller screens */
