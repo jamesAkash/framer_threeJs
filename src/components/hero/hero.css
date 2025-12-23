@@ -1,2 +1,142 @@
 .hero {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.hSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hTitle {
+  margin-top: 50px;
+  font-size: 100px;
+  color: greenyellow;
+}
+
+.hTitle span {
+  color: white;
+}
+
+.pokemon {
+  width: 30%;
+}
+
+.pokemon p {
+  font-size: 14px;
+  color: #ddd;
+  margin: 16px 0;
+}
+
+.pokemonList {
+  display: flex;
+  gap: 8px;
+}
+
+.pokemonList img {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  padding: 8px;
+  background: #fff;
+}
+
+.scroll {
+  margin-bottom: 50px;
+  width: max-content;
+}
+
+.hSection.right {
+  align-items: end;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+  background: #2f202e;
+  border-bottom-right-radius: 10px;
+}
+
+.follow img {
+  width: 20px;
+  height: 20px;
+}
+
+.followTextContainer {
+  width: 20px;
+  height: 20px;
+}
+
+.followText {
+  background-color: rgb(73, 113, 14);
+  font-size: 12px;
+  rotate: 90deg;
+  width: max-content;
+  height: 100%;
+  transform-origin: left top;
+  transform: translateY(-20px);
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 10px;
+}
+
+.bubbleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bubble {
+}
+.bubbleContainer img {
+  width: 120px;
+}
+
+.pokiverse {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.pokiverse img {
+  height: 70px;
+  width: 70px;
+}
+
+.contactLink {
+  margin-bottom: 50px;
+}
+
+.contactButton {
+  position: relative;
+}
+.circleText {
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
