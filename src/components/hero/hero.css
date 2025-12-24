@@ -15,7 +15,7 @@
 
 .hImg {
   position: absolute;
-  top: 0;
+  /* top: 0; */
   bottom: 0;
   right: 0;
   left: 0;
@@ -39,7 +39,6 @@
 }
 
 .hTitle {
-  margin-top: 50px;
   font-size: 100px;
   color: greenyellow;
 }
@@ -178,4 +177,86 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1536px) {
+  .hTitle {
+    font-size: 72px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .bg {
+    height: 60%;
+    top: auto;
+    bottom: 0;
+  }
+
+  .hImg {
+    height: 100%;
+  }
+
+  .bubbleContainer {
+    width: 80%;
+  }
+
+  .pokemon {
+    width: 60%;
+  }
+
+  .hTitle {
+    font-size: 88px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg {
+    height: 50%;
+  }
+
+  .hTitle {
+    font-size: 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .bg {
+    height: 60%;
+  }
+
+  .hSection {
+    width: 100%;
+  }
+
+  .hSection.left {
+    align-items: center;
+    text-align: center;
+    gap: 36px;
+  }
+
+  .hTitle {
+    font-size: 48px;
+  }
+
+  .pokemon {
+    width: 100%;
+  }
+
+  .pokemonList {
+    justify-content: center;
+  }
+
+  .hSection.right {
+    justify-content: end;
+  }
+
+  .follow,
+  .bubbleContainer,
+  .pokiverse {
+    display: none;
+  }
 }
