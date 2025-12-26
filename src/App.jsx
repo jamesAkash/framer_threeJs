@@ -1,4 +1,4 @@
-import { Hero, Services } from "./components";
+import { Hero, Pokemon, Services } from "./components";
 import Test3d from "./components/Test3d";
 
 const App = () => {
@@ -10,6 +10,7 @@ const App = () => {
       <section id="services">
         <Services />
       </section>
+      <Pokemon />
     </div>
   );
 };
